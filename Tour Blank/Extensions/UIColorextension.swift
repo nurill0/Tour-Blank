@@ -9,16 +9,16 @@ import UIKit
 extension UIColor {
     // general
     
-    static func baseBgColor()->UIColor{
-        return UIColor(hexString: "5199CE")
+    static func appGreenColor()->UIColor{
+        return UIColor(hexString: "BBFFA3")
     }
+
     
     
-    static func buttonBgColor()->UIColor{
-        return UIColor(hexString: "9AC14E")
+    static func titleLblColor()->UIColor{
+        return UIColor(hexString: "0D4478")
     }
-    
-    
+
 
     
 }

@@ -7,25 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBAEE2F82AA32A0500218C88 /* PlanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAEE2F72AA32A0500218C88 /* PlanCell.swift */; };
+		FBAEE2FA2AA35DBC00218C88 /* TripPlanDescripVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAEE2F92AA35DBC00218C88 /* TripPlanDescripVC.swift */; };
+		FBAEE2FD2AA5FCCA00218C88 /* TimeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAEE2FC2AA5FCCA00218C88 /* TimeTableCell.swift */; };
+		FBAEE2FF2AA62E8E00218C88 /* ReminderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAEE2FE2AA62E8E00218C88 /* ReminderItem.swift */; };
+		FBAEE3012AA658BE00218C88 /* CreateLandMarkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAEE3002AA658BE00218C88 /* CreateLandMarkVC.swift */; };
+		FBAEE3062AA75A7B00218C88 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAEE3052AA75A7B00218C88 /* PhotoCollectionViewCell.swift */; };
+		FBAEE30A2AA75C6B00218C88 /* UnsplashPhotoPicker in Frameworks */ = {isa = PBXBuildFile; productRef = FBAEE3092AA75C6B00218C88 /* UnsplashPhotoPicker */; };
+		FBAEE30E2AA764C200218C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBAEE30D2AA764C200218C88 /* Main.storyboard */; };
+		FBAEE3112AA787AE00218C88 /* ImageLoadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAEE3102AA787AE00218C88 /* ImageLoadder.swift */; };
+		FBAEE3132AA78CDC00218C88 /* SightseeingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAEE3122AA78CDC00218C88 /* SightseeingCell.swift */; };
+		FBAEE3162AA873C600218C88 /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = FBAEE3152AA873C600218C88 /* Cosmos */; };
+		FBE88D492AA1D0F000CF324C /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE88D482AA1D0F000CF324C /* ArrayExtension.swift */; };
 		FBEC4D062A99BDE800ACB55F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC4D052A99BDE800ACB55F /* AppDelegate.swift */; };
 		FBEC4D082A99BDE800ACB55F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC4D072A99BDE800ACB55F /* SceneDelegate.swift */; };
-		FBEC4D0A2A99BDE800ACB55F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC4D092A99BDE800ACB55F /* ViewController.swift */; };
-		FBEC4D0D2A99BDE900ACB55F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEC4D0B2A99BDE800ACB55F /* Main.storyboard */; };
+		FBEC4D0A2A99BDE800ACB55F /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC4D092A99BDE800ACB55F /* BaseVC.swift */; };
 		FBEC4D102A99BDE900ACB55F /* Tour_Blank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBEC4D0E2A99BDE900ACB55F /* Tour_Blank.xcdatamodeld */; };
 		FBEC4D122A99BDEB00ACB55F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEC4D112A99BDEB00ACB55F /* Assets.xcassets */; };
 		FBEC4D152A99BDEB00ACB55F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEC4D132A99BDEB00ACB55F /* LaunchScreen.storyboard */; };
+		FBEC4D202A99BF4700ACB55F /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC4D1F2A99BF4700ACB55F /* UserDefaultsManager.swift */; };
+		FBEC4D222A99BF5000ACB55F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC4D212A99BF5000ACB55F /* UIViewExtension.swift */; };
+		FBEC4D242A99BF5900ACB55F /* UIColorextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC4D232A99BF5900ACB55F /* UIColorextension.swift */; };
+		FBEC4D2C2A99C4DE00ACB55F /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEC4D2B2A99C4C000ACB55F /* Kanit-Medium.ttf */; };
+		FBEC4D2D2A99C4E100ACB55F /* Kanit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEC4D2A2A99C4B600ACB55F /* Kanit-SemiBold.ttf */; };
+		FBEC4D2E2A99C4E400ACB55F /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBEC4D292A99C4AA00ACB55F /* Kanit-Regular.ttf */; };
+		FBEC4D302A99C54500ACB55F /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC4D2F2A99C54500ACB55F /* MenuVC.swift */; };
+		FBEC4D352A99CF7C00ACB55F /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC4D342A99CF7C00ACB55F /* MapVC.swift */; };
+		FBEC4D372A99CF8B00ACB55F /* TripPlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC4D362A99CF8B00ACB55F /* TripPlanVC.swift */; };
+		FBEC4D392A99CF9F00ACB55F /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC4D382A99CF9F00ACB55F /* PlacesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FBAEE2F72AA32A0500218C88 /* PlanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanCell.swift; sourceTree = "<group>"; };
+		FBAEE2F92AA35DBC00218C88 /* TripPlanDescripVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlanDescripVC.swift; sourceTree = "<group>"; };
+		FBAEE2FC2AA5FCCA00218C88 /* TimeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableCell.swift; sourceTree = "<group>"; };
+		FBAEE2FE2AA62E8E00218C88 /* ReminderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderItem.swift; sourceTree = "<group>"; };
+		FBAEE3002AA658BE00218C88 /* CreateLandMarkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLandMarkVC.swift; sourceTree = "<group>"; };
+		FBAEE3052AA75A7B00218C88 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		FBAEE30D2AA764C200218C88 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FBAEE3102AA787AE00218C88 /* ImageLoadder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadder.swift; sourceTree = "<group>"; };
+		FBAEE3122AA78CDC00218C88 /* SightseeingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightseeingCell.swift; sourceTree = "<group>"; };
+		FBE88D482AA1D0F000CF324C /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 		FBEC4D022A99BDE800ACB55F /* Tour Blank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tour Blank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEC4D052A99BDE800ACB55F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBEC4D072A99BDE800ACB55F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FBEC4D092A99BDE800ACB55F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FBEC4D0C2A99BDE900ACB55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBEC4D092A99BDE800ACB55F /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		FBEC4D0F2A99BDE900ACB55F /* Tour_Blank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tour_Blank.xcdatamodel; sourceTree = "<group>"; };
 		FBEC4D112A99BDEB00ACB55F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBEC4D142A99BDEB00ACB55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBEC4D162A99BDEB00ACB55F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEC4D1F2A99BF4700ACB55F /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		FBEC4D212A99BF5000ACB55F /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FBEC4D232A99BF5900ACB55F /* UIColorextension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorextension.swift; sourceTree = "<group>"; };
+		FBEC4D292A99C4AA00ACB55F /* Kanit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Regular.ttf"; sourceTree = "<group>"; };
+		FBEC4D2A2A99C4B600ACB55F /* Kanit-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-SemiBold.ttf"; sourceTree = "<group>"; };
+		FBEC4D2B2A99C4C000ACB55F /* Kanit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Medium.ttf"; sourceTree = "<group>"; };
+		FBEC4D2F2A99C54500ACB55F /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		FBEC4D342A99CF7C00ACB55F /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		FBEC4D362A99CF8B00ACB55F /* TripPlanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlanVC.swift; sourceTree = "<group>"; };
+		FBEC4D382A99CF9F00ACB55F /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +73,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBAEE3162AA873C600218C88 /* Cosmos in Frameworks */,
+				FBAEE30A2AA75C6B00218C88 /* UnsplashPhotoPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FBAEE2FB2AA5FCBA00218C88 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				FBAEE2F72AA32A0500218C88 /* PlanCell.swift */,
+				FBAEE2FC2AA5FCCA00218C88 /* TimeTableCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		FBAEE30F2AA7759800218C88 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				FBAEE3052AA75A7B00218C88 /* PhotoCollectionViewCell.swift */,
+				FBAEE3122AA78CDC00218C88 /* SightseeingCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
 		FBEC4CF92A99BDE800ACB55F = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +118,113 @@
 		FBEC4D042A99BDE800ACB55F /* Tour Blank */ = {
 			isa = PBXGroup;
 			children = (
-				FBEC4D052A99BDE800ACB55F /* AppDelegate.swift */,
-				FBEC4D072A99BDE800ACB55F /* SceneDelegate.swift */,
-				FBEC4D092A99BDE800ACB55F /* ViewController.swift */,
-				FBEC4D0B2A99BDE800ACB55F /* Main.storyboard */,
-				FBEC4D112A99BDEB00ACB55F /* Assets.xcassets */,
-				FBEC4D132A99BDEB00ACB55F /* LaunchScreen.storyboard */,
+				FBEC4D282A99C49400ACB55F /* Fonts */,
+				FBEC4D252A99BFB800ACB55F /* Pages */,
+				FBEC4D1E2A99BE6E00ACB55F /* Extensions */,
+				FBEC4D1D2A99BE5A00ACB55F /* Views */,
+				FBEC4D1C2A99BE4900ACB55F /* App */,
 				FBEC4D162A99BDEB00ACB55F /* Info.plist */,
 				FBEC4D0E2A99BDE900ACB55F /* Tour_Blank.xcdatamodeld */,
 			);
 			path = "Tour Blank";
+			sourceTree = "<group>";
+		};
+		FBEC4D1C2A99BE4900ACB55F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FBEC4D072A99BDE800ACB55F /* SceneDelegate.swift */,
+				FBEC4D052A99BDE800ACB55F /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FBEC4D1D2A99BE5A00ACB55F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBEC4D112A99BDEB00ACB55F /* Assets.xcassets */,
+				FBAEE30D2AA764C200218C88 /* Main.storyboard */,
+				FBEC4D132A99BDEB00ACB55F /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FBEC4D1E2A99BE6E00ACB55F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FBE88D482AA1D0F000CF324C /* ArrayExtension.swift */,
+				FBEC4D232A99BF5900ACB55F /* UIColorextension.swift */,
+				FBEC4D212A99BF5000ACB55F /* UIViewExtension.swift */,
+				FBAEE3102AA787AE00218C88 /* ImageLoadder.swift */,
+				FBEC4D1F2A99BF4700ACB55F /* UserDefaultsManager.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FBEC4D252A99BFB800ACB55F /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				FBEC4D332A99CF6400ACB55F /* places */,
+				FBEC4D322A99CF5B00ACB55F /* tripPlan */,
+				FBEC4D312A99CF4700ACB55F /* map */,
+				FBEC4D272A99C09000ACB55F /* base */,
+				FBEC4D262A99BFBF00ACB55F /* menu */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		FBEC4D262A99BFBF00ACB55F /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				FBEC4D2F2A99C54500ACB55F /* MenuVC.swift */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		FBEC4D272A99C09000ACB55F /* base */ = {
+			isa = PBXGroup;
+			children = (
+				FBEC4D092A99BDE800ACB55F /* BaseVC.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		FBEC4D282A99C49400ACB55F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FBEC4D2B2A99C4C000ACB55F /* Kanit-Medium.ttf */,
+				FBEC4D2A2A99C4B600ACB55F /* Kanit-SemiBold.ttf */,
+				FBEC4D292A99C4AA00ACB55F /* Kanit-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FBEC4D312A99CF4700ACB55F /* map */ = {
+			isa = PBXGroup;
+			children = (
+				FBEC4D342A99CF7C00ACB55F /* MapVC.swift */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		FBEC4D322A99CF5B00ACB55F /* tripPlan */ = {
+			isa = PBXGroup;
+			children = (
+				FBAEE2FB2AA5FCBA00218C88 /* cells */,
+				FBEC4D362A99CF8B00ACB55F /* TripPlanVC.swift */,
+				FBAEE2F92AA35DBC00218C88 /* TripPlanDescripVC.swift */,
+				FBAEE2FE2AA62E8E00218C88 /* ReminderItem.swift */,
+			);
+			path = tripPlan;
+			sourceTree = "<group>";
+		};
+		FBEC4D332A99CF6400ACB55F /* places */ = {
+			isa = PBXGroup;
+			children = (
+				FBAEE30F2AA7759800218C88 /* cells */,
+				FBEC4D382A99CF9F00ACB55F /* PlacesVC.swift */,
+				FBAEE3002AA658BE00218C88 /* CreateLandMarkVC.swift */,
+			);
+			path = places;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +243,10 @@
 			dependencies = (
 			);
 			name = "Tour Blank";
+			packageProductDependencies = (
+				FBAEE3092AA75C6B00218C88 /* UnsplashPhotoPicker */,
+				FBAEE3152AA873C600218C88 /* Cosmos */,
+			);
 			productName = "Tour Blank";
 			productReference = FBEC4D022A99BDE800ACB55F /* Tour Blank.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +275,10 @@
 				Base,
 			);
 			mainGroup = FBEC4CF92A99BDE800ACB55F;
+			packageReferences = (
+				FBAEE3082AA75C6B00218C88 /* XCRemoteSwiftPackageReference "unsplash-photopicker-ios" */,
+				FBAEE3142AA873C600218C88 /* XCRemoteSwiftPackageReference "Cosmos" */,
+			);
 			productRefGroup = FBEC4D032A99BDE800ACB55F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,8 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBEC4D152A99BDEB00ACB55F /* LaunchScreen.storyboard in Resources */,
+				FBEC4D2C2A99C4DE00ACB55F /* Kanit-Medium.ttf in Resources */,
 				FBEC4D122A99BDEB00ACB55F /* Assets.xcassets in Resources */,
-				FBEC4D0D2A99BDE900ACB55F /* Main.storyboard in Resources */,
+				FBAEE30E2AA764C200218C88 /* Main.storyboard in Resources */,
+				FBEC4D2D2A99C4E100ACB55F /* Kanit-SemiBold.ttf in Resources */,
+				FBEC4D2E2A99C4E400ACB55F /* Kanit-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +309,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBEC4D222A99BF5000ACB55F /* UIViewExtension.swift in Sources */,
 				FBEC4D102A99BDE900ACB55F /* Tour_Blank.xcdatamodeld in Sources */,
-				FBEC4D0A2A99BDE800ACB55F /* ViewController.swift in Sources */,
+				FBAEE2FF2AA62E8E00218C88 /* ReminderItem.swift in Sources */,
+				FBEC4D372A99CF8B00ACB55F /* TripPlanVC.swift in Sources */,
+				FBAEE3062AA75A7B00218C88 /* PhotoCollectionViewCell.swift in Sources */,
+				FBAEE3012AA658BE00218C88 /* CreateLandMarkVC.swift in Sources */,
+				FBE88D492AA1D0F000CF324C /* ArrayExtension.swift in Sources */,
+				FBEC4D202A99BF4700ACB55F /* UserDefaultsManager.swift in Sources */,
+				FBEC4D0A2A99BDE800ACB55F /* BaseVC.swift in Sources */,
+				FBAEE2F82AA32A0500218C88 /* PlanCell.swift in Sources */,
+				FBAEE2FA2AA35DBC00218C88 /* TripPlanDescripVC.swift in Sources */,
 				FBEC4D062A99BDE800ACB55F /* AppDelegate.swift in Sources */,
+				FBEC4D302A99C54500ACB55F /* MenuVC.swift in Sources */,
+				FBEC4D392A99CF9F00ACB55F /* PlacesVC.swift in Sources */,
+				FBAEE3132AA78CDC00218C88 /* SightseeingCell.swift in Sources */,
+				FBAEE2FD2AA5FCCA00218C88 /* TimeTableCell.swift in Sources */,
+				FBEC4D242A99BF5900ACB55F /* UIColorextension.swift in Sources */,
+				FBEC4D352A99CF7C00ACB55F /* MapVC.swift in Sources */,
+				FBAEE3112AA787AE00218C88 /* ImageLoadder.swift in Sources */,
 				FBEC4D082A99BDE800ACB55F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +335,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FBEC4D0B2A99BDE800ACB55F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBEC4D0C2A99BDE900ACB55F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FBEC4D132A99BDEB00ACB55F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,11 +470,15 @@
 				DEVELOPMENT_TEAM = RDUJ47QN57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Tour Blank/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "Please allow to use your location";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow to use your location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please allow to use your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow to use your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,11 +502,15 @@
 				DEVELOPMENT_TEAM = RDUJ47QN57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Tour Blank/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "Please allow to use your location";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow to use your location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please allow to use your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow to use your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +546,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBAEE3082AA75C6B00218C88 /* XCRemoteSwiftPackageReference "unsplash-photopicker-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/unsplash/unsplash-photopicker-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		FBAEE3142AA873C600218C88 /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 23.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBAEE3092AA75C6B00218C88 /* UnsplashPhotoPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBAEE3082AA75C6B00218C88 /* XCRemoteSwiftPackageReference "unsplash-photopicker-ios" */;
+			productName = UnsplashPhotoPicker;
+		};
+		FBAEE3152AA873C600218C88 /* Cosmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBAEE3142AA873C600218C88 /* XCRemoteSwiftPackageReference "Cosmos" */;
+			productName = Cosmos;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FBEC4D0E2A99BDE900ACB55F /* Tour_Blank.xcdatamodeld */ = {

@@ -8,7 +8,7 @@
 import UIKit
 
 class MenuVC: BaseVC {
-
+    
     lazy var menuBgImage: UIImageView = {
         let img = UIImageView()
         img.translatesAutoresizingMaskIntoConstraints = false
@@ -24,6 +24,7 @@ class MenuVC: BaseVC {
         btn.setImage(UIImage(named: "map"), for: .normal)
         btn.backgroundColor = .clear
         btn.tag = 1
+        btn.addTarget(self, action: #selector(goPages(sender:)), for: .touchUpInside)
         
         return btn
     }()
@@ -34,6 +35,7 @@ class MenuVC: BaseVC {
         btn.setImage(UIImage(named: "tripPlan"), for: .normal)
         btn.backgroundColor = .clear
         btn.tag = 2
+        btn.addTarget(self, action: #selector(goPages(sender:)), for: .touchUpInside)
         
         return btn
     }()
@@ -44,6 +46,7 @@ class MenuVC: BaseVC {
         btn.setImage(UIImage(named: "places"), for: .normal)
         btn.backgroundColor = .clear
         btn.tag = 3
+        btn.addTarget(self, action: #selector(goPages(sender:)), for: .touchUpInside)
         
         return btn
     }()
@@ -55,26 +58,25 @@ class MenuVC: BaseVC {
         setUpMenuUI()
     }
     
-
-    @objc func goPages(sender: UIButton){
-        var vc = UIViewController()
-        
-        switch sender.tag {
-        case 1:
-        case 2:
-        case 3:
-        default: vc = UIViewController()
-        }
-        
-    }
-
-
+    
 }
 
 
 
 extension MenuVC {
     
+    @objc func goPages(sender: UIButton){
+        var vc = UIViewController()
+        switch sender.tag {
+        case 1: vc = MapVC()
+        case 2: vc = TripPlanVC()
+        case 3: vc = PlacesVC()
+        default: vc = UIViewController()
+        }
+        vc.modalPresentationStyle = .fullScreen
+        vc.modalTransitionStyle = .crossDissolve
+       present(vc, animated: true)
+    }
 }
 
 
@@ -96,7 +98,7 @@ extension MenuVC {
         menuBgImage.right(view.rightAnchor)
         menuBgImage.left(view.leftAnchor)
     }
-
+    
     
     fileprivate func mapBtnConst(){
         view.addSubview(mapBtn)

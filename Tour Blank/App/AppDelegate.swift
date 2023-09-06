@@ -7,7 +7,6 @@
 
 import UIKit
 import CoreData
-
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,6 +14,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let userD = UserDefaultsManager.shared
+        savedPlaces = userD.loadPlaces()
+        savedLatitude = userD.loadLatitude()
+        savedLongtitude = userD.loadLongtitude()
+        savedCountry = userD.loadCountry()
+        savedCities = userD.loadCities()
+        savedDate = userD.loadDate()
+        schedulePlan = userD.loadScheduleTitle()
+        scheduleTime = userD.loadScheduleTime()
+        savedImages = userD.loadImages()
+        savedSightsee = userD.loadSightSee()
+        savedImpression = userD.loadImpression()
+        savedRates = userD.loadRateAmount()
+
         return true
     }
 

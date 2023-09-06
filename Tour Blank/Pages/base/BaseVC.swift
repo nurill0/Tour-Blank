@@ -23,7 +23,8 @@ class BaseVC: UIViewController {
         super.viewDidLoad()
         setupUI()
     }
-    
+
+
     
 }
 
